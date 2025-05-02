@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manila's Vending Machine</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #ff4c4c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/1600x600/?vending-machine');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products, .contact {
+      display: grid;
+      gap: 2rem;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manila's Vending Machine</h1>
+    <p>Your snacks and drinks, anytime, anywhere!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Always Open, Always Fresh</h2>
+    <p>Grab your favorite snack 24/7</p>
+  </div>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Manila's Vending Machine is a proudly local business offering convenient access to snacks, drinks, and essentials. Our machines are placed strategically across Manila to serve students, professionals, and late-night snackers.</p>
+  </section>
+
+  <section id="products" class="section products">
+    <h2>Our Products</h2>
+    <ul>
+      <li>Cold Drinks (Soda, Water, Juices)</li>
+      <li>Chips and Crackers</li>
+      <li>Cookies and Chocolates</li>
+      <li>Cup Noodles and Ready-to-Eat Meals</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: manilasvending@gmail.com</p>
+    <p>Instagram: @manilasvending</p>
+    <p>Location: Available in schools and offices across Manila</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manila's Vending Machine. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+Here’s a simple website for Manila’s Vending Machine with sections for About, Products, and Contact. You can preview or further customize it—do you want to add features like a map, order system, or image gallery?
+
